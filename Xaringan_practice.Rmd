@@ -1,0 +1,35 @@
+---
+title: "I am learning"
+author: "Dr. Edgar Aguilar"
+institute: "Aguila Services"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [default, rladies, rutgers-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: "16:9"
+---
+
+```{r setup, include=FALSE}
+## Libraries
+library(knitr)
+library(rmdformats)
+
+## Global Options
+knitr::opts_chunk$set(
+  echo = FALSE, prompt = FALSE,
+  tidy = FALSE, comment = NA,
+  message = FALSE, warning = FALSE,
+  dev = 'CairoSVG',
+  fig.align = 'center'
+)
+```
+
+# Getting started 
+- Start a new R project
+- Create a new R markdown file
+
+---
+# Tengo mucho trabajo que hacer
